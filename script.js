@@ -49,3 +49,18 @@ $(document).ready(function(){
       $("#back3").hide(1000);
     });
   });
+ 
+
+  // recipe
+  $(document).ready(function(){
+    $("#recipe").click(function(){
+      $(".card-wrapper").slideDown("slow");
+    });
+  });
+
+$(document).ready(function(){
+  $("#move-back").click(function(){
+    $(".card-wrapper").fadeOut(3000);
+  });
+});
+
