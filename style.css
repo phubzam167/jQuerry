@@ -1,0 +1,169 @@
+body {
+		background-image:url(https://c5.staticflickr.com/6/5535/22835226948_9c0b61229c_k.jpg);
+        background-size: cover;
+		background-attachment: fixed;
+}
+#back{
+	display: none;
+
+}
+#back2{
+	display:none;
+}
+#back3{
+	display: none;
+}
+.return{
+	float: left;
+}
+.return2{
+	float:left;
+}
+.return3{
+	float: left;
+}
+
+
+.play{
+	margin: auto;
+	display: block;
+	padding: 10px;
+	background-color:seashell;
+	border:none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+.play:hover {
+    cursor: pointer;
+    background-color: #b1b1e5;
+    transform: scale(1.05);
+}
+.play:focus {
+    outline: none;
+}
+
+.play2{
+	margin: auto;
+	display: block;
+	padding: 10px;
+	background-color:seashell;
+	border:none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+.play2:hover {
+    cursor: pointer;
+    background-color: #b1b1e5;
+    transform: scale(1.05);
+}
+.play2:focus {
+    outline: none;
+}
+
+.play3{
+	margin: auto;
+	display: block;
+	padding: 10px;
+	background-color:seashell;
+	border:none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+.play3:hover {
+    cursor: pointer;
+    background-color: #b1b1e5;
+    transform: scale(1.05);
+}
+.play3:focus {
+    outline: none;
+}
+
+#menu-bar{
+	margin-left: 50px;
+	display: flex;
+	
+}
+#menu-bar:hover {
+    transition: 0.5s ease;
+	cursor:pointer;
+	
+
+}
+#drop-down{
+	background-color: darkgray;
+	width: 200px;
+	height: 200px;
+	
+}
+#drop-down ul{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #ffffff;
+}
+	
+	#drop-down ul li{
+		list-style: none;
+        padding: 10px;
+        cursor: pointer;
+	}
+	#drop-down ul li:hover {
+		color:#F39C12;
+		border-radius: 5px;
+		transition: 0.5s ease;}
+
+  #heading{
+	color: rgb(73, 23, 165);
+	font-family:"Optima", serif; 
+	 font-size: 54px;
+    text-align: center;
+  }
+
+
+h1 {
+	font-family:"Optima", serif; 
+	 font-size: 54px;
+    text-align: center;
+     color:#020c0f;
+}
+
+h2 {
+	font-family:Arial, sans-serif; 
+	color: #1b4c02;  
+	  text-align:center; 
+	margin: 0;
+}
+
+h3 {
+	color: #4fa799;
+	  font-size: 42px;
+	 text-align: center;
+	margin: 0;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	 color:#f3f0f0; 
+}
+
+section {
+	background-color:white;
+	width: 90%;
+	padding: 30px;
+	 margin: 15px auto;
+	box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+section{
+	background-image: url(https://previews.123rf.com/images/greek/greek1801/greek180100050/93838311-seamless-ethnic-sayagata-geometric-pattern-vector-ornament-japanese-pattern.jpg);
+	background-size: cover;
+	
+	
+}
