@@ -3,6 +3,9 @@ body {
         background-size: cover;
 		background-attachment: fixed;
 }
+/* #main-container{
+	margin-top: 200px; */
+
 #back{
 	display: none;
 
@@ -205,3 +208,57 @@ div.card-content {
 		margin-top: 100px;
 	}
 
+#sign-up{
+background-color: dodgerblue;
+color: #ffffff;
+border: none;
+border-radius: 5px;
+padding: 10px;
+display: block;
+margin: auto;
+
+}
+#sign-up:hover {
+    cursor: pointer;
+    background-color: #b1b1e5;
+    transform: scale(1.05);
+}
+#sign-up:focus {
+    outline: none;
+}
+
+#sign-con{
+	width: 35vw;
+	height: 50vh;
+	background-color: hsl(60, 5%, 96%);
+	border-radius: 5px;
+	box-shadow:0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);;
+}
+.input-form{
+	justify-items: center;
+	
+}
+ .input-form input{
+	width: 20vw;
+	height:5vh;
+	
+ }
+ .input-form label{
+	padding: 30px;
+ }
+
+ .sub-button{
+	margin: auto;
+	padding: 10px;
+	display: block;
+	background-color: dodgerblue;
+	border: none;
+	border-radius: 5px;
+ }
+
+#sign-con{
+	margin-left:400px;
+	margin-bottom: 400px;
+	display: none;
+	
+}

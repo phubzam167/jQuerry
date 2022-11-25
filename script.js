@@ -64,3 +64,13 @@ $(document).ready(function(){
   });
 });
 
+
+$(document).ready(function(){
+  $("#sign-up").click(function(){
+    $("#sign-con").toggle();
+  });
+});
+
+$(document).ready(function(){  
+  $('.phone').inputmask('+975-12345678');   
+});  
