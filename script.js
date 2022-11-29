@@ -74,3 +74,29 @@ $(document).ready(function(){
 $(document).ready(function(){  
   $('.phone').inputmask('+975-12345678');   
 });  
+
+
+$(document).ready(function(){
+  $("#sign-up").click(function(){
+    $(".modal_box").addClass("active");
+  });
+
+  $(".modal_close").click(function(){
+    $(".modal_box").removeClass("active");
+  });
+});
+
+$(document).ready(function(){
+  $("#contact").submit(function(){
+    alert("Submited!");
+    var $inputs = $('#contact :input');
+
+    var values = {};
+    $inputs.each(function(){
+      values[this.name] = $(this).val();
+    });
+    alert(values['name']);
+    alert(values['email']);
+    alert(values['phone']);
+  });
+});

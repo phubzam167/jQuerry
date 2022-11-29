@@ -210,7 +210,7 @@ div.card-content {
 
 #sign-up{
 background-color: dodgerblue;
-color: #ffffff;
+color: #0a0808;
 border: none;
 border-radius: 5px;
 padding: 10px;
@@ -227,13 +227,7 @@ margin: auto;
     outline: none;
 }
 
-#sign-con{
-	width: 35vw;
-	height: 50vh;
-	background-color: hsl(60, 5%, 96%);
-	border-radius: 5px;
-	box-shadow:0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);;
-}
+
 .input-form{
 	justify-items: center;
 	
@@ -261,4 +255,122 @@ margin: auto;
 	margin-bottom: 400px;
 	display: none;
 	
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	background: #e9e9e9;
+}
+
+.wrapper{
+	width: 100%;
+	height: 200vh;
+}
+
+
+.wrapper .modal_box{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	display: none;
+	
+}
+
+.wrapper .modal_box .modal_bg_shadow{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.wrapper .modal_box .modal_box_wrap{
+	width: 550px;
+	height:400px;
+	background: rgb(212, 209, 209);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 5px;
+	
+}
+ 
+.wrapper .modal_box .modal_box_wrap .modal_close{
+	position: absolute;
+	top: -25px;
+	right: -25px;
+	width: 50px;
+	height: 50px;
+	background: #a3afcc;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.wrapper .modal_box .modal_box_wrap .modal_close:before,
+.wrapper .modal_box .modal_box_wrap .modal_close:after{
+	content: "";
+	position: absolute;
+	top: 25px;
+	left: 13px;
+	width: 25px;
+	height: 2px;
+	background: rgb(238, 227, 227);
+}
+
+.wrapper .modal_box .modal_box_wrap .modal_close:before{
+	transform: rotate(45deg);
+}
+
+.wrapper .modal_box .modal_box_wrap .modal_close:after{
+	transform: rotate(130deg);
+}
+
+.wrapper .modal_box .modal_box_wrap .modal_header{
+	padding: 20px;
+	border-bottom: 1px solid #e0e0e0;
+	height: 60px;
+	font-size: 22px;
+}	
+
+
+.wrapper .modal_box .modal_box_wrap .modal_body{
+	padding: 20px;
+	border-bottom: 1px solid #e0e0e0;
+	height: calc(250px - 120px);
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.wrapper .modal_box .modal_box_wrap .modal_footer{
+	padding: 20px;
+	height: 60px;
+}
+
+.wrapper .modal_footer .modal_btn_grp{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+}
+
+.wrapper .modal_footer .modal_btn_grp .btn{
+	width: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+.wrapper .modal_box.active{
+	display: block;
 }
